@@ -1,0 +1,7 @@
+C:\C++\IfelseHw\IfelseHw\bin\Debug\IfelseHw.exe.config
+C:\C++\IfelseHw\IfelseHw\bin\Debug\IfelseHw.exe
+C:\C++\IfelseHw\IfelseHw\bin\Debug\IfelseHw.pdb
+C:\C++\IfelseHw\IfelseHw\obj\Debug\IfelseHw.csproj.AssemblyReference.cache
+C:\C++\IfelseHw\IfelseHw\obj\Debug\IfelseHw.csproj.CoreCompileInputs.cache
+C:\C++\IfelseHw\IfelseHw\obj\Debug\IfelseHw.exe
+C:\C++\IfelseHw\IfelseHw\obj\Debug\IfelseHw.pdb
