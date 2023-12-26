@@ -468,34 +468,34 @@ namespace IfelseHw
 
 
             //獎金利潤
-            Console.WriteLine("請輸入Ipay");
+            Console.WriteLine("請輸入利潤");
             double I = Convert.ToDouble(Console.ReadLine());
 
             double pay;
             if (I >= 1000000)
             {
-                pay = I * 0.01 + (I - 600000) * 0.015 + (I - 400000) * 0.03 + (I - 200000) * 0.05;
+                pay = I * 0.01 + (I - 600000) * 0.015 + (I - 400000) * 0.03 + (I - 200000) * 0.05 + (I-100000)*0.075 +100000*0.1;
 
                 Console.WriteLine($"獎金為{pay}");
             }
             else if (600000 < I && I <= 1000000)
             {
-                pay = I * 0.05;
+                pay = I * 0.015 + (I - 400000) * 0.03 + (I - 200000) * 0.05 + (I - 100000) * 0.075 + 100000 * 0.1;
                 Console.WriteLine($"獎金為{pay}");
             }
             else if (400000 < I && I <= 600000)
             {
-                pay = I * 0.03;
+                pay = I * 0.03 + (I - 200000) * 0.05 + (I - 100000) * 0.075 + 100000 * 0.1;
                 Console.WriteLine($"獎金為{pay}");
             }
             else if (200000 < I && I <= 400000)
             {
-                pay = I * 0.015;
+                pay = I * 0.05 + (I - 100000) * 0.075 + 100000 * 0.1;
                 Console.WriteLine($"獎金為{pay}");
             }
             else if (I >= 100000 && I < 200000)
             {
-                pay = I * 0.075;
+                pay = I * 0.075 + 100000 * 0.1;
                 Console.WriteLine($"獎金為{pay}");
             }
             else
