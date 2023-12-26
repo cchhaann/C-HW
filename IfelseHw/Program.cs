@@ -468,7 +468,7 @@ namespace IfelseHw
 
 
             //獎金利潤
-            Console.WriteLine("請輸入I");
+            Console.WriteLine("請輸入Ipay");
             double I = Convert.ToDouble(Console.ReadLine());
 
             double pay;
